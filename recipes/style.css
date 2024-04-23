@@ -1,9 +1,13 @@
 
+
+
 /* CSS for the lasagna page */
 
 
+
+
 body {
-    background-color:   #B8B8B8;
+    background-color:   rgb(184, 184, 184);
     border: 2px solid yellow;
     border-radius: 1%;
     margin: 10px;
@@ -36,10 +40,18 @@ p {
 }
 
 .lasimg {
- 
+    
+    background-color: yellow;
+    
     border: yellow 2px solid;
-    margin: 50px;
+    
+    margin: 70px;
+    
     border-radius: 10%;
+
+    height: 510px;
+
+    
 } 
       
       
