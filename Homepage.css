@@ -1,63 +1,60 @@
-body{
-    
-    text-align: center;
-    
-    background-color: rgb(184, 184, 184);        
+
+html{
+    background-color:   rgb(131, 131, 131);
 }
 
-#header{
-    
-    background-color: yellow;
-    
-    color: red;
-    
-    font-size: 30px;
-    
-    border: 2px solid yellow;
-    
-    margin: 10px;
-    
-    border-radius: 100px;
-    
-    border-style: double;
+#head{
+    color:  rgb(197, 40, 40);
+    font-size: 50px;
+    text-align: center;
+    cursor: default;
 }
-    
+
 
 .links{
-    
-    background-color: yellow;
-    
-    color: rgb(43, 6, 252);
-    
-    font-size: 30px;
-    
-    border: 2px solid yellow;
-    
-    margin: -9px;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    text-align: center;
+    transform: translateY(300px);
+    transition: ease-in-out 1s;
+
+}
+
+#link1{
+    background-color:   rgb(131, 131, 131);
+    color:  rgb(197, 40, 40);
+    font-size: 50px;
+    font-style: bold;
+    margin: -8px;
+    border: solid;
+    border-color: yellow;
     border-radius: 10px;
-    
-    border-style: double;
+    border-width: 5px;    
+    cursor:cell;
+}
 
-    transition: 0.5s;
-    
-    cursor: pointer;
+#link2{
+    background-color:   rgb(131, 131, 131);
+    color:  rgb(197, 40, 40);
+    font-size: 50px;
+    font-style: bold;
+    margin: -8px;
+    border: solid;
+    border-color: yellow;
+    border-radius: 10px;
+    border-width: 5px;
+    cursor:cell;
+}
 
-    }
-
-
-.topic{
-    
-    background-color: yellow;
-    
-    border: 2px solid yellow;
-    
-    border-radius: 50px;
-    
-    margin: 60px;
-    
-    color: red;
-    
-    font-size: 60px;
-
+#link3{
+    background-color:   rgb(131, 131, 131);
+    color:  rgb(197, 40, 40);
+    font-size: 50px;
+    font-style: bold;
+    border: solid;
+    margin: -8px;
+    border-color: yellow;
+    border-radius: 10px;
+    border-width: 5px;
+    cursor:cell;
 }
