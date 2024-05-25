@@ -20,6 +20,8 @@ body{
     border-radius: 100px;
     
     border-style: double;
+
+    transition: 1s;
 }
     
 
@@ -39,7 +41,7 @@ body{
     
     border-style: double;
 
-    transition: 0.5s;
+    transition: 1s;
     
     cursor: pointer;
 
@@ -59,5 +61,7 @@ body{
     color: red;
     
     font-size: 60px;
+
+    transition: 1s;
 
 }
